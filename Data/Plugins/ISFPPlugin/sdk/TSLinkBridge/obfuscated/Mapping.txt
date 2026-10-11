@@ -1,0 +1,424 @@
+Renamed Types:
+
+[TSLinkBridge]A.A -> [TSLinkBridge]A.A
+{
+	[TSLinkBridge]A.A::A[0]( ) -> A
+	[TSLinkBridge]A.A::A[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> A
+	[TSLinkBridge]A.A::a[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> a
+	[TSLinkBridge]A.A::B[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> B
+	[TSLinkBridge]A.A::b[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> b
+	[TSLinkBridge]A.A::C[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> C
+	[TSLinkBridge]A.A::a[0]( ) -> a
+	[TSLinkBridge]A.A::B[0]( ) -> B
+	[TSLinkBridge]A.A::c[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> c
+	[TSLinkBridge]A.A::b[0]( ) -> b
+	[TSLinkBridge]A.A::D[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> D
+	[TSLinkBridge]A.A::d[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> d
+	[TSLinkBridge]A.A::E[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> E
+	[TSLinkBridge]A.A::e[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> e
+	[TSLinkBridge]A.A::F[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> F
+	[TSLinkBridge]A.A::C[0]( ) -> C
+	[TSLinkBridge]A.A::f[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> f
+	[TSLinkBridge]A.A::c[0]( ) -> c
+	[TSLinkBridge]A.A::D[0]( ) -> D
+	[TSLinkBridge]A.A::G[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> G
+	[TSLinkBridge]A.A::g[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> g
+	[TSLinkBridge]A.A::d[0]( ) -> d
+	[TSLinkBridge]A.A::H[1]( [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> H
+	[TSLinkBridge]A.A::E[0]( ) -> E
+	[TSLinkBridge]A.A::e[0]( ) -> e
+	[TSLinkBridge]A.A::F[0]( ) -> F
+	[TSLinkBridge]A.A::f[0]( ) -> f
+	[TSLinkBridge]A.A::A[2]( [System.Runtime]System.String, [Newtonsoft.Json]Newtonsoft.Json.Linq.JObject ) -> A
+	[TSLinkBridge]A.A::G[0]( ) -> G
+
+	[TSLinkBridge]A.A::Main[1]( [System.Runtime]System.String[] ) skipped:  method rule in configuration
+	[TSLinkBridge]A.A::.ctor[0]( ) skipped:  special name
+	[TSLinkBridge]A.A::.cctor[0]( ) skipped:  special name
+
+	TSLib.Full.TsFullClient [TSLinkBridge]TSLib.Full.TsFullClient A.A::A -> A
+	TSLib.Full.IdentityData [TSLinkBridge]TSLib.Full.IdentityData A.A::A -> A
+	TSLib.Scheduler.DedicatedTaskScheduler [TSLinkBridge]TSLib.Scheduler.DedicatedTaskScheduler A.A::A -> A
+	TSLib.Audio.Opus.OpusEncoder [TSLinkBridge]TSLib.Audio.Opus.OpusEncoder A.A::A -> A
+	A.a [TSLinkBridge]A.a A.A::A -> A
+	A.B [TSLinkBridge]A.B A.A::A -> A
+	System.Boolean [TSLinkBridge]System.Boolean A.A::A -> A
+	System.Byte[] [TSLinkBridge]System.Byte[] A.A::A -> A
+	A.b [TSLinkBridge]A.b A.A::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.A::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.A::a -> a
+}
+
+[TSLinkBridge]A.a -> [TSLinkBridge]A.a
+{
+	[TSLinkBridge]A.a::A[1]( [System.Runtime]System.Boolean ) -> A
+	[TSLinkBridge]A.a::A[4]( [System.Runtime]System.Byte[], [System.Runtime]System.Int32, [System.Runtime]System.Int32, [TSLib]TSLib.Audio.Meta& ) -> A
+	[TSLinkBridge]A.a::A[0]( ) -> A
+
+	[TSLinkBridge]A.a::get_OutStream[0]( ) skipped:  external base class or interface
+	[TSLinkBridge]A.a::set_OutStream[1]( [TSLib]TSLib.Audio.IAudioPassiveConsumer ) skipped:  external base class or interface
+	[TSLinkBridge]A.a::get_Active[0]( ) skipped:  external base class or interface
+	[TSLinkBridge]A.a::Write[2]( [System.Runtime]System.Span`1<[System.Runtime]System.Byte>, [TSLib]TSLib.Audio.Meta ) skipped:  external base class or interface
+	[TSLinkBridge]A.a::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.Dictionary`2<System.UInt16,A.a/A> [TSLinkBridge]System.Collections.Generic.Dictionary`2<System.UInt16,A.a/A> A.a::A -> A
+	System.Boolean [TSLinkBridge]System.Boolean A.a::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.a::A -> A
+	TSLib.Audio.IAudioPassiveConsumer [TSLinkBridge]TSLib.Audio.IAudioPassiveConsumer A.a::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.a::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.a::B -> B
+
+	TSLib.Audio.IAudioPassiveConsumer [TSLinkBridge]TSLib.Audio.IAudioPassiveConsumer A.a::A -> A
+}
+
+[TSLinkBridge]A.B -> [TSLinkBridge]A.B
+{
+	[TSLinkBridge]A.B::A[6]( [System.Runtime]System.IntPtr&, [System.Runtime]System.Int32, [System.Runtime]System.Byte[], [System.Runtime]System.IntPtr, [System.Runtime]System.Int32, [System.Runtime]System.Int32 ) -> A
+	[TSLinkBridge]A.B::A[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32 ) -> A
+	[TSLinkBridge]A.B::a[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32 ) -> a
+	[TSLinkBridge]A.B::B[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32 ) -> B
+	[TSLinkBridge]A.B::A[1]( [System.Runtime]System.IntPtr ) -> A
+	[TSLinkBridge]A.B::a[1]( [System.Runtime]System.IntPtr ) -> a
+	[TSLinkBridge]A.B::A[0]( ) -> A
+	[TSLinkBridge]A.B::a[0]( ) -> a
+	[TSLinkBridge]A.B::B[0]( ) -> B
+	[TSLinkBridge]A.B::A[4]( [System.Runtime]System.Byte[], [System.Runtime]System.Int32, [System.Runtime]System.Int32, [TSLib]TSLib.Audio.Meta& ) -> A
+	[TSLinkBridge]A.B::b[0]( ) -> b
+	[TSLinkBridge]A.B::A[1]( [System.Runtime]System.Object ) -> A
+
+	[TSLinkBridge]A.B::get_OutStream[0]( ) skipped:  external base class or interface
+	[TSLinkBridge]A.B::set_OutStream[1]( [TSLib]TSLib.Audio.IAudioPassiveConsumer ) skipped:  external base class or interface
+	[TSLinkBridge]A.B::get_Active[0]( ) skipped:  external base class or interface
+	[TSLinkBridge]A.B::Write[2]( [System.Runtime]System.Span`1<[System.Runtime]System.Byte>, [TSLib]TSLib.Audio.Meta ) skipped:  external base class or interface
+	[TSLinkBridge]A.B::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [TSLinkBridge]System.Int32 A.B::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.B::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.B::B -> B
+	System.Int32 [TSLinkBridge]System.Int32 A.B::b -> b
+	System.IntPtr [TSLinkBridge]System.IntPtr A.B::A -> A
+	System.Boolean [TSLinkBridge]System.Boolean A.B::A -> A
+	System.Collections.Generic.Dictionary`2<System.UInt16,TSLib.Audio.Opus.OpusDecoder> [TSLinkBridge]System.Collections.Generic.Dictionary`2<System.UInt16,TSLib.Audio.Opus.OpusDecoder> A.B::A -> A
+	System.Collections.Generic.Dictionary`2<System.UInt16,System.Collections.Concurrent.ConcurrentQueue`1<System.Byte[]>> [TSLinkBridge]System.Collections.Generic.Dictionary`2<System.UInt16,System.Collections.Concurrent.ConcurrentQueue`1<System.Byte[]>> A.B::A -> A
+	System.Byte[] [TSLinkBridge]System.Byte[] A.B::A -> A
+	System.Threading.Timer [TSLinkBridge]System.Threading.Timer A.B::A -> A
+	System.IntPtr[] [TSLinkBridge]System.IntPtr[] A.B::A -> A
+	System.Runtime.InteropServices.GCHandle[] [TSLinkBridge]System.Runtime.InteropServices.GCHandle[] A.B::A -> A
+	System.Byte[][] [TSLinkBridge]System.Byte[][] A.B::A -> A
+	System.Int32[] [TSLinkBridge]System.Int32[] A.B::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.B::C -> C
+	TSLib.Audio.IAudioPassiveConsumer [TSLinkBridge]TSLib.Audio.IAudioPassiveConsumer A.B::A -> A
+
+	TSLib.Audio.IAudioPassiveConsumer [TSLinkBridge]TSLib.Audio.IAudioPassiveConsumer A.B::A -> A
+}
+
+[TSLinkBridge]A.b -> [TSLinkBridge]A.b
+{
+	[TSLinkBridge]A.b::A[6]( [System.Runtime]System.IntPtr&, [System.Runtime]System.Int32, [System.Runtime]System.Byte[], [System.Runtime]System.IntPtr, [System.Runtime]System.Int32, [System.Runtime]System.Int32 ) -> A
+	[TSLinkBridge]A.b::A[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32 ) -> A
+	[TSLinkBridge]A.b::a[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32 ) -> a
+	[TSLinkBridge]A.b::B[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32 ) -> B
+	[TSLinkBridge]A.b::A[1]( [System.Runtime]System.IntPtr ) -> A
+	[TSLinkBridge]A.b::a[1]( [System.Runtime]System.IntPtr ) -> a
+	[TSLinkBridge]A.b::A[0]( ) -> A
+	[TSLinkBridge]A.b::A[2]( [System.Runtime]System.Int32, [System.Runtime]System.Int32 ) -> A
+	[TSLinkBridge]A.b::a[0]( ) -> a
+	[TSLinkBridge]A.b::A[1]( [System.Runtime]System.Int32 ) -> A
+	[TSLinkBridge]A.b::a[1]( [System.Runtime]System.Int32 ) -> a
+	[TSLinkBridge]A.b::A[1]( [System.Runtime]System.Byte[] ) -> A
+
+	[TSLinkBridge]A.b::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [TSLinkBridge]System.Int32 A.b::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.b::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.b::B -> B
+	System.Int32 [TSLinkBridge]System.Int32 A.b::b -> b
+	System.IntPtr [TSLinkBridge]System.IntPtr A.b::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.b::C -> C
+	System.Boolean [TSLinkBridge]System.Boolean A.b::A -> A
+	System.Object [TSLinkBridge]System.Object A.b::A -> A
+	A.b/B[] [TSLinkBridge]A.b/B[] A.b::A -> A
+}
+
+[TSLinkBridge]A.C -> [TSLinkBridge]A.C
+{
+	[TSLinkBridge]A.C::A[1]( [System.Runtime]System.Globalization.CultureInfo ) -> A
+	[TSLinkBridge]A.C::A[1]( [System.Runtime]System.Reflection.AssemblyName ) -> A
+	[TSLinkBridge]A.C::a[1]( [System.Runtime]System.Reflection.AssemblyName ) -> a
+	[TSLinkBridge]A.C::A[2]( [System.Runtime]System.IO.Stream, [System.Runtime]System.IO.Stream ) -> A
+	[TSLinkBridge]A.C::A[1]( [System.Runtime]System.String ) -> A
+	[TSLinkBridge]A.C::A[2]( [System.Collections]System.Collections.Generic.Dictionary`2<[System.Runtime]System.String,[System.Runtime]System.String>, [System.Runtime]System.String ) -> A
+	[TSLinkBridge]A.C::A[1]( [System.Runtime]System.IO.Stream ) -> A
+	[TSLinkBridge]A.C::A[3]( [System.Collections]System.Collections.Generic.Dictionary`2<[System.Runtime]System.String,[System.Runtime]System.String>, [System.Collections]System.Collections.Generic.Dictionary`2<[System.Runtime]System.String,[System.Runtime]System.String>, [System.Runtime]System.Reflection.AssemblyName ) -> A
+	[TSLinkBridge]A.C::A[2]( [System.Runtime.Loader]System.Runtime.Loader.AssemblyLoadContext, [System.Runtime]System.Reflection.AssemblyName ) -> A
+	[TSLinkBridge]A.C::A[1]( [System.Runtime]System.Boolean ) -> A
+
+	[TSLinkBridge]A.C::.cctor[0]( ) skipped:  special name
+
+	System.Object [TSLinkBridge]System.Object A.C::A -> A
+	System.Collections.Generic.Dictionary`2<System.String,System.Boolean> [TSLinkBridge]System.Collections.Generic.Dictionary`2<System.String,System.Boolean> A.C::A -> A
+	System.Collections.Generic.Dictionary`2<System.String,System.String> [TSLinkBridge]System.Collections.Generic.Dictionary`2<System.String,System.String> A.C::A -> A
+	System.Collections.Generic.Dictionary`2<System.String,System.String> [TSLinkBridge]System.Collections.Generic.Dictionary`2<System.String,System.String> A.C::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.C::A -> A
+}
+
+[TSLinkBridge]A.c -> [TSLinkBridge]A.c
+{
+	System.String [TSLinkBridge]System.String A.c::A -> A
+	System.String [TSLinkBridge]System.String A.c::a -> a
+}
+
+[TSLinkBridge]A.A/A -> [TSLinkBridge]A.A/A
+{
+	[TSLinkBridge]A.A/A::A[2]( [System.Runtime]System.Object, [System.Runtime]System.ResolveEventArgs ) -> A
+	[TSLinkBridge]A.A/A::A[0]( ) -> A
+	[TSLinkBridge]A.A/A::a[0]( ) -> a
+	[TSLinkBridge]A.A/A::B[0]( ) -> B
+	[TSLinkBridge]A.A/A::A[2]( [System.Runtime]System.Object, [TSLib]TSLib.Messages.ClientEnterView ) -> A
+	[TSLinkBridge]A.A/A::A[2]( [System.Runtime]System.Object, [TSLib]TSLib.Messages.ClientLeftView ) -> A
+	[TSLinkBridge]A.A/A::A[2]( [System.Runtime]System.Object, [TSLib]TSLib.Messages.ClientMoved ) -> A
+	[TSLinkBridge]A.A/A::A[2]( [System.Runtime]System.Object, [TSLib]TSLib.Messages.TextMessage ) -> A
+	[TSLinkBridge]A.A/A::b[0]( ) -> b
+
+	[TSLinkBridge]A.A/A::.cctor[0]( ) skipped:  special name
+	[TSLinkBridge]A.A/A::.ctor[0]( ) skipped:  special name
+
+	A.A/A [TSLinkBridge]A.A/A A.A/A::A -> A
+	System.ResolveEventHandler [TSLinkBridge]System.ResolveEventHandler A.A/A::A -> A
+	System.Action [TSLinkBridge]System.Action A.A/A::A -> A
+	System.Func`1<System.Threading.Tasks.Task`1<System.R`2<TSLib.Messages.ChannelListResponse[],TSLib.Messages.CommandError>>> [TSLinkBridge]System.Func`1<System.Threading.Tasks.Task`1<System.R`2<TSLib.Messages.ChannelListResponse[],TSLib.Messages.CommandError>>> A.A/A::A -> A
+	System.Func`1<System.Threading.Tasks.Task`1<System.E`1<TSLib.Messages.CommandError>>> [TSLinkBridge]System.Func`1<System.Threading.Tasks.Task`1<System.E`1<TSLib.Messages.CommandError>>> A.A/A::A -> A
+	System.EventHandler`1<TSLib.Messages.ClientEnterView> [TSLinkBridge]System.EventHandler`1<TSLib.Messages.ClientEnterView> A.A/A::A -> A
+	System.EventHandler`1<TSLib.Messages.ClientLeftView> [TSLinkBridge]System.EventHandler`1<TSLib.Messages.ClientLeftView> A.A/A::A -> A
+	System.EventHandler`1<TSLib.Messages.ClientMoved> [TSLinkBridge]System.EventHandler`1<TSLib.Messages.ClientMoved> A.A/A::A -> A
+	System.EventHandler`1<TSLib.Messages.TextMessage> [TSLinkBridge]System.EventHandler`1<TSLib.Messages.TextMessage> A.A/A::A -> A
+	System.Func`1<System.Threading.Tasks.Task> [TSLinkBridge]System.Func`1<System.Threading.Tasks.Task> A.A/A::A -> A
+}
+
+[TSLinkBridge]A.A/a -> [TSLinkBridge]A.A/a
+{
+	[TSLinkBridge]A.A/a::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/a::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [TSLinkBridge]System.Int32 A.A/a::A -> A
+}
+
+[TSLinkBridge]A.A/B -> [TSLinkBridge]A.A/B
+{
+	[TSLinkBridge]A.A/B::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/B::.ctor[0]( ) skipped:  special name
+
+	TSLib.ConnectionDataFull [TSLinkBridge]TSLib.ConnectionDataFull A.A/B::A -> A
+}
+
+[TSLinkBridge]A.A/b -> [TSLinkBridge]A.A/b
+{
+	[TSLinkBridge]A.A/b::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/b::.ctor[0]( ) skipped:  special name
+
+	System.Boolean [TSLinkBridge]System.Boolean A.A/b::A -> A
+	System.Boolean [TSLinkBridge]System.Boolean A.A/b::a -> a
+	System.String [TSLinkBridge]System.String A.A/b::A -> A
+	System.Boolean [TSLinkBridge]System.Boolean A.A/b::B -> B
+	System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> [TSLinkBridge]System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> A.A/b::A -> A
+	System.String [TSLinkBridge]System.String A.A/b::a -> a
+}
+
+[TSLinkBridge]A.A/C -> [TSLinkBridge]A.A/C
+{
+	[TSLinkBridge]A.A/C::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/C::.ctor[0]( ) skipped:  special name
+
+	System.String [TSLinkBridge]System.String A.A/C::A -> A
+}
+
+[TSLinkBridge]A.A/c -> [TSLinkBridge]A.A/c
+{
+	[TSLinkBridge]A.A/c::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/c::.ctor[0]( ) skipped:  special name
+
+	TSLib.Full.Book.Client [TSLinkBridge]TSLib.Full.Book.Client A.A/c::A -> A
+}
+
+[TSLinkBridge]A.A/D -> [TSLinkBridge]A.A/D
+{
+	[TSLinkBridge]A.A/D::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/D::.ctor[0]( ) skipped:  special name
+
+	System.String [TSLinkBridge]System.String A.A/D::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.A/D::A -> A
+	System.UInt64 [TSLinkBridge]System.UInt64 A.A/D::A -> A
+}
+
+[TSLinkBridge]A.A/d -> [TSLinkBridge]A.A/d
+{
+
+	[TSLinkBridge]A.A/d::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.List`1<System.Byte[]> [TSLinkBridge]System.Collections.Generic.List`1<System.Byte[]> A.A/d::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.A/d::A -> A
+}
+
+[TSLinkBridge]A.A/E -> [TSLinkBridge]A.A/E
+{
+	[TSLinkBridge]A.A/E::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/E::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [TSLinkBridge]System.Int32 A.A/E::A -> A
+	A.A/d [TSLinkBridge]A.A/d A.A/E::A -> A
+}
+
+[TSLinkBridge]A.A/e -> [TSLinkBridge]A.A/e
+{
+	[TSLinkBridge]A.A/e::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/e::.ctor[0]( ) skipped:  special name
+
+	System.Byte[] [TSLinkBridge]System.Byte[] A.A/e::A -> A
+}
+
+[TSLinkBridge]A.A/F -> [TSLinkBridge]A.A/F
+{
+	[TSLinkBridge]A.A/F::A[0]( ) -> A
+
+	[TSLinkBridge]A.A/F::.ctor[0]( ) skipped:  special name
+
+	System.Nullable`1<System.UInt64> [TSLinkBridge]System.Nullable`1<System.UInt64> A.A/F::A -> A
+}
+
+[TSLinkBridge]A.A/f -> [TSLinkBridge]A.A/f
+{
+	[TSLinkBridge]A.A/f::A[0]( ) -> A
+	[TSLinkBridge]A.A/f::a[0]( ) -> a
+
+	[TSLinkBridge]A.A/f::.ctor[0]( ) skipped:  special name
+
+	TSLib.Full.Book.Client [TSLinkBridge]TSLib.Full.Book.Client A.A/f::A -> A
+	System.Nullable`1<System.UInt64> [TSLinkBridge]System.Nullable`1<System.UInt64> A.A/f::A -> A
+}
+
+[TSLinkBridge]A.a/A -> [TSLinkBridge]A.a/A
+{
+
+	[TSLinkBridge]A.a/A::.ctor[0]( ) skipped:  special name
+
+	TSLib.Audio.Opus.OpusDecoder [TSLinkBridge]TSLib.Audio.Opus.OpusDecoder A.a/A::A -> A
+	System.Byte[] [TSLinkBridge]System.Byte[] A.a/A::A -> A
+}
+
+[TSLinkBridge]A.B/A -> [TSLinkBridge]A.B/A
+{
+	System.UInt16 [TSLinkBridge]System.UInt16 A.B/A::A -> A
+	System.UInt16 [TSLinkBridge]System.UInt16 A.B/A::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.B/A::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.B/A::a -> a
+	System.UInt16 [TSLinkBridge]System.UInt16 A.B/A::B -> B
+	System.UInt16 [TSLinkBridge]System.UInt16 A.B/A::b -> b
+	System.UInt16 [TSLinkBridge]System.UInt16 A.B/A::C -> C
+}
+
+[TSLinkBridge]A.B/a -> [TSLinkBridge]A.B/a
+{
+	System.IntPtr [TSLinkBridge]System.IntPtr A.B/a::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.B/a::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.B/a::a -> a
+	System.IntPtr [TSLinkBridge]System.IntPtr A.B/a::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.B/a::B -> B
+	System.Int32 [TSLinkBridge]System.Int32 A.B/a::b -> b
+	System.IntPtr [TSLinkBridge]System.IntPtr A.B/a::B -> B
+	System.IntPtr [TSLinkBridge]System.IntPtr A.B/a::b -> b
+}
+
+[TSLinkBridge]A.b/A -> [TSLinkBridge]A.b/A
+{
+	System.UInt16 [TSLinkBridge]System.UInt16 A.b/A::A -> A
+	System.UInt16 [TSLinkBridge]System.UInt16 A.b/A::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.b/A::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.b/A::a -> a
+	System.UInt16 [TSLinkBridge]System.UInt16 A.b/A::B -> B
+	System.UInt16 [TSLinkBridge]System.UInt16 A.b/A::b -> b
+	System.UInt16 [TSLinkBridge]System.UInt16 A.b/A::C -> C
+}
+
+[TSLinkBridge]A.b/a -> [TSLinkBridge]A.b/a
+{
+	System.IntPtr [TSLinkBridge]System.IntPtr A.b/a::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.b/a::A -> A
+	System.Int32 [TSLinkBridge]System.Int32 A.b/a::a -> a
+	System.IntPtr [TSLinkBridge]System.IntPtr A.b/a::a -> a
+	System.Int32 [TSLinkBridge]System.Int32 A.b/a::B -> B
+	System.Int32 [TSLinkBridge]System.Int32 A.b/a::b -> b
+	System.IntPtr [TSLinkBridge]System.IntPtr A.b/a::B -> B
+	System.IntPtr [TSLinkBridge]System.IntPtr A.b/a::b -> b
+}
+
+[TSLinkBridge]A.b/B -> [TSLinkBridge]A.b/B
+{
+
+	[TSLinkBridge]A.b/B::.ctor[0]( ) skipped:  special name
+
+	System.Byte[] [TSLinkBridge]System.Byte[] A.b/B::A -> A
+	System.Runtime.InteropServices.GCHandle [TSLinkBridge]System.Runtime.InteropServices.GCHandle A.b/B::A -> A
+	System.IntPtr [TSLinkBridge]System.IntPtr A.b/B::A -> A
+	System.Boolean [TSLinkBridge]System.Boolean A.b/B::A -> A
+}
+
+[TSLinkBridge]A.C/A -> [TSLinkBridge]A.C/A
+{
+	System.Func`3<System.Runtime.Loader.AssemblyLoadContext,System.Reflection.AssemblyName,System.Reflection.Assembly> [TSLinkBridge]System.Func`3<System.Runtime.Loader.AssemblyLoadContext,System.Reflection.AssemblyName,System.Reflection.Assembly> A.C/A::A -> A
+}
+
+[TSLinkBridge]A.A/c/A -> [TSLinkBridge]A.A/c/A
+{
+
+	[TSLinkBridge]A.A/c/A::MoveNext[0]( ) skipped:  external base class or interface
+	[TSLinkBridge]A.A/c/A::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [TSLinkBridge]System.Int32 A.A/c/A::A -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> [TSLinkBridge]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> A.A/c/A::A -> A
+	A.A/c [TSLinkBridge]A.A/c A.A/c/A::A -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> [TSLinkBridge]System.Runtime.CompilerServices.TaskAwaiter`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> A.A/c/A::A -> A
+}
+
+[TSLinkBridge]A.A/f/A -> [TSLinkBridge]A.A/f/A
+{
+
+	[TSLinkBridge]A.A/f/A::MoveNext[0]( ) skipped:  external base class or interface
+	[TSLinkBridge]A.A/f/A::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [TSLinkBridge]System.Int32 A.A/f/A::A -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> [TSLinkBridge]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> A.A/f/A::A -> A
+	A.A/f [TSLinkBridge]A.A/f A.A/f/A::A -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> [TSLinkBridge]System.Runtime.CompilerServices.TaskAwaiter`1<System.R`2<TSLib.Messages.ClientUpdated,TSLib.Messages.CommandError>> A.A/f/A::A -> A
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+
+costura.costura.dll.compressed (no clear new name)
+costura.costura.pdb.compressed (no clear new name)
+costura.bouncycastle.crypto.dll.compressed (no clear new name)
+costura.newtonsoft.json.dll.compressed (no clear new name)
+costura.nlog.dll.compressed (no clear new name)
+costura.tslib.dll.compressed (no clear new name)
+costura.tslib.pdb.compressed (no clear new name)
+costura.metadata (no clear new name)
+costura.costura.dll.compressed (no clear new name)
+costura.costura.pdb.compressed (no clear new name)
+costura.bouncycastle.crypto.dll.compressed (no clear new name)
+costura.newtonsoft.json.dll.compressed (no clear new name)
+costura.nlog.dll.compressed (no clear new name)
+costura.tslib.dll.compressed (no clear new name)
+costura.tslib.pdb.compressed (no clear new name)
+costura.metadata (no clear new name)
